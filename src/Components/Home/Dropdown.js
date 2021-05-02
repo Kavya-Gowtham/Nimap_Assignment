@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import "./Home.css";
-import message from "./Message";
 
 function Dropdown(props) {
-  console.log(props);
-
   //State declaration
   const [dropdownItems] = useState([
     {
@@ -16,8 +13,8 @@ function Dropdown(props) {
       value: "dropdown1",
     },
     {
-      label: "Dropdown2",
       value: "dropdown2",
+      label: "Dropdown2",
     },
     {
       label: "Dropdown3",
@@ -49,4 +46,5 @@ function Dropdown(props) {
     </div>
   );
 }
+
 export default Dropdown;

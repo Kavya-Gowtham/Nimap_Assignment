@@ -10,7 +10,7 @@ function Tasks() {
       .then((res) => res.json())
       .then(
         (result) => {
-          console.log(result, "result");
+          // console.log(result, "result");
           setTask(result);
         },
         (error) => {
