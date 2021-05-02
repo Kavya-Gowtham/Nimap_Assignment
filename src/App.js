@@ -10,7 +10,6 @@ function App() {
   const [authFlag, setAuthFlag] = useState(false);
   const [errFlag, setErrFlag] = useState(false);
   const authCheck = (val) => {
-    console.log(val, LoginValues, "val");
     if (
       val.username === LoginValues.username &&
       val.password === LoginValues.password

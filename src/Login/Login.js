@@ -15,7 +15,6 @@ function Login(props) {
   const [loginData, setLoginData] = useState("");
   const classes = useStyles();
   const handleChange = (e) => {
-    console.log(e.target.value, "handleChange");
     setLoginData({ ...loginData, [e.target.name]: e.target.value });
   };
   const handleLogin = () => {
